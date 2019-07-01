@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <title>New tab</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body,
+      html {
+        margin: 0;
+      }
+      body {
+        background: #eee;
+        padding: 30px;
+        font-family: "Cutive Mono", monospace;
+      }
+      textarea {
+        border: none;
+        width: 100%;
+        height: 90vh;
+        padding: 30px;
+        background: transparent;
+        resize: none;
+        font-family: "Cutive Mono", monospace;
+        font-size: 2em;
+      }
+      textarea:focus {
+        border: none;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea name="tabdata" id="newTabTextarea" cols="30" rows="10"></textarea>
+    <script src="newtab.js"></script>
+  </body>
+</html>
